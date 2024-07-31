@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 // Call dotenv.config() to load environment variables from .env file
 dotenv.config();
 const password = encodeURIComponent (process.env.MONGO_PASSWORD.trim());
-//const connectionString = 'mongodb+srv://integrationninjas:$(password)@dev-cluster.7nko6hh.mongodb.net/?retryWrites=true&w-majority&
+//const fvdfv connectionString = 'mongodb+srv://integrationninjas:$(password)@dev-cluster.7nko6hh.mongodb.net/?retryWrites=true&w-majority&
 const client = new MongoClient (connectionString);
 let conn;
 try {
