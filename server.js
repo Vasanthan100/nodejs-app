@@ -68,6 +68,10 @@ app.use("/graphql", graphqlHTTP({
     graphiql: true,
   })
 );
+// To be removed................................
+app.get("/rest/getAllUsers", (req, res) => {
+    res.send(userData)
+   });
 
 app.get("/rest/getAllUsers", (req, res) => {
     res.send(userData)
