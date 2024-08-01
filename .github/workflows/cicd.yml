@@ -28,7 +28,7 @@ jobs:
         run: docker pull vasanth23an/nodejs-app:latest
       - name: delete old container
         run: docker rm -f nodejs-app-container
-      - name: delete old docker image
+      - name: delete old docker image -f
         #run: docker rmi vasanth23an/nodejs-app
         run: docker image prune
       - name: Run docker container
