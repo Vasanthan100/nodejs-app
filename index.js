@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded ({extended: true}));
 // Parses the text as json
 app.use(bodyParser.json());
 app.get('/', async(req, res) => {
-res.send('Hello World, from express');
+res.send('Hello World,  express');
 })
 
 app.listen(PORT, () => {
