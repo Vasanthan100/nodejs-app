@@ -30,6 +30,6 @@ jobs:
         run: docker rm -f nodejs-app-container
       - name: delete old docker image 
         #run: docker rmi vasanth23an/nodejs-app
-        run: docker image prune
+        run: docker image prune -f
       - name: Run docker container
         run: docker run --restart=always -d -p 4000:4000 --name nodejs-app-container vasanth23an/nodejs-app
