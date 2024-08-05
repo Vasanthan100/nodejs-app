@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.js"
+        "start": "node server1.js"
     },
     "keywords": [],
     "author": "",
@@ -16,6 +16,7 @@
         "express": "^4.19.2",
         "express-graphql": "^0.12.0",
         "graphql": "^15.8.0",
-        "mongodb": "^6.8.0"
+        "mongodb": "^6.8.0",
+        "mongoose": "^8.5.2"
     }
 }
